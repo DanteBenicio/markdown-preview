@@ -1,0 +1,26 @@
+{
+  "name": "markdown-preview",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "dompurify": "^2.3.6",
+    "marked": "^4.0.14",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "sanitize-html": "^2.7.0",
+    "sass": "^1.50.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/sanitize-html": "^2.6.2",
+    "@vitejs/plugin-react": "^1.3.0",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.2"
+  }
+}
